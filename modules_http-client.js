@@ -3,7 +3,7 @@
 import { get } from "node:https";
 
 const myURL = {
-  hostname: "letrasnubladas.co",
+  hostname: "letrasnubladas.com",
   port: 443,
   path: "/about/"
 };
