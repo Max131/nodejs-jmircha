@@ -4,25 +4,25 @@ module.exports = {
         es2021: true,
         node: true
     },
-    extends: ['eslint:recommended', 'semistandard'],
+    extends: ["eslint:recommended", "semistandard"],
     overrides: [
         {
             env: {
                 node: true
             },
             files: [
-                '.eslintrc.{js,cjs}'
+                ".eslintrc.{js,cjs}"
             ],
             parserOptions: {
-                sourceType: 'script'
+                sourceType: "script"
             }
         }
     ],
     parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module'
+        ecmaVersion: "latest",
+        sourceType: "module"
     },
     rules: {
-        "quotes": ["error", "double"]
+        quotes: ["error", "double"]
     }
 };
